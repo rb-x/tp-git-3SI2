@@ -1,0 +1,8 @@
+.header__container {
+  background-color: blue;
+  padding: 2px;
+}
+
+.header__title {
+  color: red;
+}
