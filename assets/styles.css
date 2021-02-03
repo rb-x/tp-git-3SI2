@@ -1,8 +1,21 @@
 .header__container {
-  background-color: blue;
-  padding: 2px;
+	background-color: blue;
+	padding: 2px;
 }
 
 .header__title {
-  color: red;
+	color: red;
+}
+
+.container__middle {
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 1em;
+}
+
+.container__middle > * {
+	min-width: 80px;
+	min-height: 80px;
+	margin: 150px 150px;
+	background-color: red;
 }
