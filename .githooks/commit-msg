@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+REF_REGEXP =/\[ref : \d\]/    # [ref : 123]
+
+# \[([^]]+)\]
+
+commit_message = File.open(ARGV[0], 'r')  do |f| 
+  f.read
+end
+
+unless commit_message.match(REF_REGEXP)
+  puts  "[ERREUR] FORMAT DE COMMIT INCORRECT AUCUNE REF -> [ref : ID] !"
+  exit(1)
+end#!/usr/bin/env ruby
