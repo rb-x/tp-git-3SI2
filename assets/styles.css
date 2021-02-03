@@ -19,3 +19,8 @@
 	margin: 150px 150px;
 	background-color: red;
 }
+
+.footer__container {
+	background-color: orange;
+	padding: 5px;
+}
